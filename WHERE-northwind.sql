@@ -46,9 +46,46 @@ WHERE order_date >= '1998-01-31';
 -- criando filtro para que sejam mostrados apenas clientes com contact_title = owner E do pais frança
 
 SELECT * FROM customers
-WHERE contact_title = 'Owner' AND country = 'France'
+WHERE contact_title = 'Owner' AND country = 'France';
 
 -- filtro para mostrar clientes que sejam do méxico ou frança
 
 SELECT * FROM customers
-WHERE country = 'France' OR  country = 'Mexico'
+WHERE country = 'France' OR  country = 'Mexico';
+
+-- WHERE com LIKE
+-- permite criar filtros especiais de textos
+-- medidos em boxes
+
+SELECT * FROM products
+WHERE quantity_per_unit LIKE '%boxes%';
+
+--produtos medidos em ML
+
+SELECT * FROM products
+WHERE quantity_per_unit LIKE '%ml%';
+
+-- WHERE com IN
+-- clientes do mexico, frança e uk
+-- alternativa À multiplos ors
+
+SELECT * FROM customers
+WHERE country IN ('Mexico', 'UK','France');
+
+--  WHERE com BETWEEN
+-- Esta combinação é uma alternativa excelente oao uso de AND 
+-- para filtrar intervalos de números e datas
+
+--utilizando primeiro o método AND
+SELECT * FROM products
+WHERE unit_price >= 50 AND unit_price <= 100
+
+-- Agora utilizando o métodoo BETWEEN
+
+SELECT * FROM products
+WHERE unit_price BETWEEN 50 AND 100;
+
+-- selecionando a tabela orders
+SELECT * FROM orders
+WHERE order_date BETWEEN '01-01-1997' AND '31-12-1997'
+
