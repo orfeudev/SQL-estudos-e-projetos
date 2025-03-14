@@ -1,7 +1,7 @@
 -- POSTGRESQL 
 -- SELECT
 -- consultas básicas em PostgreSQL
-
+-- * = todas as colunas
 
 SELECT * FROM categories; -- selecionando todas as colunas de categorias
 
@@ -33,7 +33,7 @@ SELECT
 FROM products
 
 -- LIMIT: limitando a quantidade de linhas da query
--- selecionando apenas a as 100 primeiras linhas da tabela ordes
+-- selecionando apenas a as 100 primeiras linhas da tabela orders
 
 SELECT * FROM orders
 LIMIT 100;
@@ -42,7 +42,7 @@ LIMIT 100;
 SELECT product_id FROM products
 LIMIT 10
 
--- DISTINCT: Selecionar os valores distintos de uma coluna
+-- DISTINCT: Seleciona os valores distintos de uma coluna
 -- retorna os valores sem repetir
 SELECT DISTINCT contact_title FROM customers;
 
