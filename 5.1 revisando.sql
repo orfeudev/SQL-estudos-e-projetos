@@ -19,3 +19,16 @@ FROM customers -- seleciona a coluna contact_title de customers e faz uma contag
 GROUP BY contact_title -- agrupa por titulo
 ORDER BY COUNT(1) DESC; -- ordena a contagem de forma decrescente.
 
+SELECT * from suppliers;
+
+SELECT
+	country,
+	COUNT(1)
+from suppliers
+GROUP BY country
+ORDER BY COUNT(1) DESC;
+
+SELECT
+	company_name,
+	country
+FROM suppliers;
