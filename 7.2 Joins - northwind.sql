@@ -1,6 +1,6 @@
 -- JOINs no banco de dados northwind
 
--- Join entre as tabelas 'products' e 'order_details'. Retornando todas as colunas dessas duas tabelas
+-- Join entre as tabelas 'products' e 'order_details'. Retornando a tabela products com intersecção da order_details.
 
 SELECT 
 	*
