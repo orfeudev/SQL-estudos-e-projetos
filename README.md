@@ -10,29 +10,29 @@ Utiliza o banco de dados Northwind, um banco de dados de exemplo da Microsoft qu
 
 Tópicos abordados:
 
-# 1. Instalação
+#### 1. Instalação
 
-## 2. Criando queries básicas
+#### 2. Criando queries básicas
 
-## 3. Filtros
+#### 3. Filtros
 
-## 4. Funções de Agregação e Agrupamentos
+#### 4. Funções de Agregação e Agrupamentos
 
-## 5. Joins
+#### 5. Joins
 
-## 6. Views
+#### 6. Views
 
-## 7. Operações CRUD
+#### 7. Operações CRUD
 
-## 8. Funções de Número, Texto e Data
+#### 8. Funções de Número, Texto e Data
 
-## 9. Subqueries
+#### 9. Subqueries
 
-## 10. Variáveis e Blocos Anônimos
+#### 10. Variáveis e Blocos Anônimos
 
-## 11. Functions
+#### 11. Functions
 
-## 12. Transactions e Procedures
+#### 12. Transactions e Procedures
 
 
 ## SQL Server (Em desenvolvimento)
