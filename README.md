@@ -35,11 +35,11 @@ Tópicos abordados:
 #### 12. Transactions e Procedures
 
 
-## SQL Server (Em desenvolvimento)
-Projeto 1 - Integração SQL Server e Excel
-Projeto 2 - Integração SQL Server e Power BI
-Projeto 3 - Integração SQL Server e Python
+## SQL Server 
+#### 1. Projeto 1 - Integração SQL Server e Excel
+#### 2. Projeto 2 - Integração SQL Server e Power BI
+#### 3. Projeto 3 - Integração SQL Server e Python
 
 ## MySQL (Em desenvolvimento)
 
-CRUD - Create, Read, Update and Delete (aqui quis apenas me familiarizar com o MySQL).
+###### CRUD - Create, Read, Update and Delete (aqui quis apenas me familiarizar com o MySQL).
