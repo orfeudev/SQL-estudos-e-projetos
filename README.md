@@ -2,37 +2,40 @@
 
 Este repositório contém estudos e projetos relacionados a bancos de dados relacionais, utilizando as principais tecnologias SQL: PostgreSQL, MySQL e SQL Server. Cada seção uma das ferramentas citadas, onde exploro bases de dados e implementação de queries para consultas, manipulação e análise de dados.
 
-## Tecnologias Abordadas
+## 1.0 Instruções:
+#### Todas as instruções para rodar os projetos e scripts estão detalhadas no primeiro arquivo de cada pasta.
 
-## PostgreSQL (Primeira parte do estudo)
+## 2.0 Tecnologias Abordadas: Postgresql, SQLServer, MySQL.
+
+## 3.0 PostgreSQL (Primeira parte do estudo)
 
 Utiliza o banco de dados Northwind, um banco de dados de exemplo da Microsoft que simula um sistema de gerenciamento de pedidos de uma empresa fictícia. O Northwind contém tabelas de clientes, produtos, fornecedores, pedidos e detalhes de pedidos, sendo ideal para práticas de consultas SQL, junções e manipulação de dados.
 
-Tópicos abordados:
+#### 3.1 Tópicos abordados
 
-#### 1. Instalação
+##### 3.1.1 Instalação  
 
-#### 2. Criando queries básicas
+##### 3.1.2 Criando queries básicas  
 
-#### 3. Filtros
+##### 3.1.3 Filtros  
 
-#### 4. Funções de Agregação e Agrupamentos
+##### 3.1.4 Funções de Agregação e Agrupamentos  
 
-#### 5. Joins
+##### 3.1.5 Joins  
 
-#### 6. Views
+##### 3.1.6 Views  
 
-#### 7. Operações CRUD
+##### 3.1.7 Operações CRUD  
 
-#### 8. Funções de Número, Texto e Data
+##### 3.1.8 Funções de Número, Texto e Data  
 
-#### 9. Subqueries
+##### 3.1.9 Subqueries  
 
-#### 10. Variáveis e Blocos Anônimos
+##### 3.1.10 Variáveis e Blocos Anônimos  
 
-#### 11. Functions
+##### 3.1.11 Functions  
 
-#### 12. Transactions e Procedures
+##### 3.1.12 Transactions e Procedures  
 
 
 ## SQL Server 
