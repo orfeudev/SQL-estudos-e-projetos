@@ -1,6 +1,6 @@
 # SQL - Estudos e Projetos
 
-Este repositório contém estudos e projetos relacionados a bancos de dados relacionais, utilizando as principais tecnologias SQL: PostgreSQL, MySQL e SQL Server. Cada seção uma das ferramentas citadas, onde exploro bases de dados e implementação de queries para consultas, manipulação e análise de dados.
+Este repositório contém estudos e projetos relacionados a bancos de dados relacionais, utilizando as principais tecnologias SQL: PostgreSQL, MySQL e SQL Server. Cada uma das ferramentas citadas estão separadas em pastas para melhor organização, onde exploro bases de dados e implementação de queries para consultas, manipulação e análise de dados.
 
 ## 1.0 Instruções:
 #### Todas as instruções para rodar os projetos e scripts estão detalhadas no primeiro arquivo de cada pasta.
