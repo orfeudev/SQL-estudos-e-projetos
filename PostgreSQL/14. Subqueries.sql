@@ -15,12 +15,19 @@ SELECT * FROM order_details;
 
 SELECT AVG(quantity) FROM order_details;
 
-SELECT 
+SELECT
 	order_id,
-	SUM(quantity) total_vendido
+	SUM(quantity)
 FROM order_details
-GROUP BY order_id;
-WHERE quantity >= (
+GROUP BY order_id
+HAVING SUM(quantity) >= (
+	SELECT
+		AVG(total_vendido)
+	FROM (	SELECT 
+			order_id,
+			SUM(quantity) total_vendido
+		FROM order_details
+		GROUP BY order_id) t);
 
 
 -- Aula 3 - Subquery: cláusula FROM
