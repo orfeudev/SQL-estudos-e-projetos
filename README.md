@@ -7,9 +7,9 @@ Este repositório contém estudos e projetos relacionados a bancos de dados rela
 
 ## 2.0 Tecnologias Abordadas: Postgresql, SQLServer, MySQL.
 
-## 3.0 PostgreSQL (Primeira parte do estudo)
+## 3.0 PostgreSQL
 
-Utiliza o banco de dados Northwind, um banco de dados de exemplo da Microsoft que simula um sistema de gerenciamento de pedidos de uma empresa fictícia. O Northwind contém tabelas de clientes, produtos, fornecedores, pedidos e detalhes de pedidos, sendo ideal para práticas de consultas SQL, junções e manipulação de dados.
+Utilizei o banco de dados Northwind, um banco de dados de exemplo da Microsoft que simula um sistema de gerenciamento de pedidos de uma empresa fictícia. O Northwind contém tabelas de clientes, produtos, fornecedores, pedidos e detalhes de pedidos, sendo ideal para práticas de consultas SQL, junções e manipulação de dados.
 
 #### 3.1 Tópicos abordados
 
